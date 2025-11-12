@@ -1,8 +1,11 @@
 //your JS code here. If required.
-function urlLength(url) {
-	return url.length;
+function urlLength() {
+	const current = window.location.href
+	const length =  current.length;
+
+
+	
+	alert(length);
 }
 
-
-let url = prompt("Enter URL");
-alert(urlLength(url));
+urlLength();
